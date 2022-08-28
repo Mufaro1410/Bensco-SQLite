@@ -17,7 +17,7 @@ app.use('/api/zones', zones)
 app.use('/api/group', group)
 app.use('/api/trips', trips)
 
-const port = 5000
+const port = 3000
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
 })
